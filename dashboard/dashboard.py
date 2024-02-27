@@ -5,7 +5,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 import altair as alt
 
-orders_df = pd.read_csv("orders_df_clean.csv")
+orders_df = pd.read_csv("../orders_df_clean.csv")
 orders_df.head()
 
 st.header('Data Order Perusahaan :sparkles:')
